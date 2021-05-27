@@ -1,4 +1,4 @@
-EJS  đọc dữ liệu <%= %> giong JSP trong Java
+
 
 BodyParser đọc dữ liệu mà người dùng POST lên cho server của ta
 
@@ -7,3 +7,9 @@ Morgan để log các request đến
 Urlencoded : extened: fasle là chỉ chấp nhận kiểu cặp dữ liệu key and value trên thanh url
 
 res.render(...) để xuất ra 1 trang HTML
+
+HandleBars đóng vai trò như 1 trang HTML nhưng đọc được dữ liệu từ biến (kiểu na ná JSP sử dụng usebeen trong java) 
+sử dụng {{tên biến}}
+
+EJS  đọc dữ liệu <%= %> giong JSP trong Java
+sử dụng res.render("shop", {day:day}); để truyền sang view
