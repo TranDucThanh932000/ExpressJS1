@@ -1,1 +1,20 @@
-<h1>Home page</h1>
+<div class="mt-4">
+    <div class="row">
+        {{#each courses}}
+        <div class="col-sm-4 col-lg-4 mt-3">
+            <div class="card text-center">
+                <a href="/courses/{{this.videoId}}">
+                    <img src="{{this.image}}" class="card-img-top" alt="{{this.image}}" style="height: 200px;width: auto;border-radius: 3px;">
+                </a>
+                
+                <div class="card-body">
+                    <a href="/courses/{{this.videoId}}">
+                        <h5 class="card-title ">{{this.name}}</h5>
+                    </a>
+                    <a href="/courses/{{this.videoId}}" class="btn btn-primary">Let's g0!!!</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>

@@ -4,17 +4,15 @@
     background-color:red;
     width:100px;
 }
-h1{
-    color: $red-color;
-
+.user-avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 5px;
+} 
+.ddl-right{
+    margin-right: 20px;
 }
-h2{
-    color:green;
-}
-
-h3{
-    color:greenyellow; 
-}
-h4{
-    color:$red-color;
+textarea{
+    height: 100px;
 }

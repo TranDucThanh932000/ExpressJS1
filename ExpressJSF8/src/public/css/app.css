@@ -3,14 +3,14 @@
   background-color: red;
   width: 100px; }
 
-h1 {
-  color: grey; }
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 5px; }
 
-h2 {
-  color: green; }
+.ddl-right {
+  margin-right: 20px; }
 
-h3 {
-  color: greenyellow; }
-
-h4 {
-  color: grey; }
+textarea {
+  height: 100px; }
