@@ -21,7 +21,7 @@
   },
   "scripts": {
     "beautiful": "prettier --single-quote --trailing-comma all --tab-width 4 --write 'src/**/*.{js,json,scss}'",
-    "start": "nodemon --inspect src/app.js",
+    "start": "node src/app.js",
     "watch": "node-sass --watch src/resources/scss --output src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
